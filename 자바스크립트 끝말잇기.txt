@@ -1,0 +1,32 @@
+1. while 버전
+
+var word = '송창범'
+while(true) 
+{
+   var answer = prompt(word)
+    if(word[word.length-1] === answer[0])
+      { // 맞았을 때	
+  	alert('딩동댕')
+	word = answer;
+      } 
+    else // 틀렸을 때    
+    {
+      alert('땡')    
+}
+}
+
+2. for 버전
+
+for(var word = '송창범'; true;) 
+{
+   var answer = prompt(word)
+    if(word[word.length-1] === answer[0])
+      { // 맞았을 때	
+  	alert('딩동댕')
+	word = answer;
+      } 
+    else // 틀렸을 때    
+    {
+      alert('땡')    
+}
+}

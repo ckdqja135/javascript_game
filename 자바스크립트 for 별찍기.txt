@@ -1,0 +1,36 @@
+기본형
+for (var i = 5; i >= 1; i--)
+  {	
+     console.log("*".repeat(i))
+  }
+
+	
+왼쪽 공간주고 찍기
+for (var i = 5; i >= 1; i--)
+  {	
+     console.log(' '.repeat(5-i) + "*".repeat(i))
+  }
+
+
+별이 2의 배수로 찍히게하기
+for (var i = 1; i <= 16; i*=2)	
+  {
+    console.log("*".repeat(i))
+  }
+
+
+별이 중앙에 찍히게 하기
+for (var i = 9; i >= 1; i-=2)
+ {	
+   console.log(' '.repeat((9-i)/2) + "*".repeat(i))
+ }
+
+마름모로 출력
+for (var j = 1; j<=3; j+=2)
+ {   
+     console.log(' '.repeat((5-j)/2) + "*".repeat(j)) // ' '.repeat((5-j)/2) 여기에서 빈공간 출력해주고, "*".repeat(j))여기에서 *출력
+ }
+   for (var i = 5; i >= 1; i-=2)
+    {	
+        console.log(' '.repeat((5-i)/2) + "*".repeat(i))
+    }
